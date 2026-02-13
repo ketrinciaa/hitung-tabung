@@ -8,8 +8,8 @@ t = st.number_input("masukan tinggi (cm): ",0)
 
 if st.button("hitung jari-jari", type="primary"):
    loading = st.progress(0)
-   for i in range(100):
-    time.sleep(0.01)
+    "/mount/src/hitung-tabung/streamlit_app.py", line 13
+      loading progress(i+1)
     loading progress(i+1)
       
    v = math.pi*(r**2)*t
